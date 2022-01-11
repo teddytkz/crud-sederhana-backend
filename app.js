@@ -7,7 +7,7 @@ const apiRouter = require('./routes/api')
 const Pelanggan = require('./models/PelangganModel')
 const db = require('./config/Database')
 
-const PORT = process.env.PORT
+const PORT = 5000
 
 const app = express()
 app.use(cors({ credentials: true, origin: "*" }))
